@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .font{
+    font-family: 'Afacad', sans-serif;
+  }
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+    background:url(shelley-pauls-5CHlP6D05o0-unsplash.jpg);
+  }  
+  .head {
+    display: block;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    /* background-color:whitesmoke ; */
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 20px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px;
+    padding: 50px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    }
+  
+  
+  .btn-inc, .btn-dec, .btn-clr, .btn-del {
+    font-size: 24px;
+    width: 70px;
+    height: 30px;
+    margin: 3px;
+  }
+  
+  .number {
+    font-size: 20px;
+    margin: 0px 5px;
+  }
+  
+  .input-number {
+    margin: 2px;
+    padding: 2px;
+  }
+  .btn-add{
+    font-size: 20px;
+  }
+  #addCounterInput {
+    width: 300px; 
+    height: 40px; 
+    font-size: 16px; 
+    padding: 8px; 
+  }
+  /* เพิ่มสไตล์ให้กับปุ่ม */
+.btn-add {
+  background-color: #3498db; /* สีพื้นหลัง */
+  color: #ffffff; /* สีตัวอักษร */
+  padding: 10px 20px; /* ขนาดของปุ่ม */
+  border: none; /* ลบเส้นขอบ */
+  border-radius: 5px; /* เพิ่มขอบมนเรียบ */
+  text-align: center; /* จัดตำแหน่งข้อความกลางปุ่ม */
+  text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ข้อความ */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+/* เพิ่มสไตล์เมื่อโฮเวอร์ */
+.btn-add:hover {
+  background-color: #2980b9; /* สีพื้นหลังเมื่อโฮเวอร์ */
+  color: white; /* สีตัวอักษรเมื่อโฮเวอร์ */
+}
+/* .h1{
+  color: #ffffff;
+} */
